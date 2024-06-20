@@ -6,7 +6,7 @@ const items = [
   {
     id: 1,
     title: "MovieLand",
-    img: "/public/movieland.jpg",
+    img: "/movieland.jpg",
     desc: "A movie recommendation application that recommends movies based on user's movie ratings, filters movies by name and categories.",
     url: "https://movie-land-app.pages.dev/",
     buttonText: "See Demo",
@@ -14,7 +14,7 @@ const items = [
   {
     id: 2,
     title: "sMedia",
-    img: "/public/smedia.jpg",
+    img: "/smedia.jpg",
     desc: "A social media platform enabling users to post updates, comment on each other's posts, message other users in real-time.",
     url: "https://smedia-app.pages.dev/",
     buttonText: "See Demo",
@@ -22,7 +22,7 @@ const items = [
   {
     id: 3,
     title: "Invoice Manager",
-    img: "/public/invoices.jpg",
+    img: "/invoices.jpg",
     desc: "Manage all your Invoices and Clients with this easy to use Invoice Manager web application.",
     url: "https://github.com/iamme24cl/invoices-backend",
     buttonText: "Github",
@@ -30,7 +30,7 @@ const items = [
   {
     id: 4,
     title: "Dynamic Job search site",
-    img: "/public/job-board.png",
+    img: "/job-board.png",
     desc: "This React app fetches remote jobs from an api. You can search for jobs and apply various filters to your search.",
     url: "https://remoteokjobs.netlify.app/",
     buttonText: "See Demo",
@@ -38,7 +38,7 @@ const items = [
   {
     id: 5,
     title: "E-Commerce Fashion Store",
-    img: "/public/three-fashion-home.png",
+    img: "/three-fashion-home.png",
     desc: " E-commerce Shopify Fashion store with fully customized and interactive store theme.",
     url: "https://github.com/iamme24cl/three-fashion",
     buttonText: "Github",
@@ -46,7 +46,7 @@ const items = [
   {
     id: 6,
     title: "Chat Application",
-    img: "/public/chat.png",
+    img: "/chat.png",
     desc: "Live chat application with friends list and real-time notification features. ",
     url: "https://github.com/iamme24cl/messenger-6483",
     buttonText: "Github",
