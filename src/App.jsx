@@ -4,12 +4,14 @@ import Parallax from "./components/parallax/Parallax";
 import About from "./components/about/About";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
+import Cursor from "./components/cursor/Cursor";
 import "./app.scss"
 
 
 const App = () => {
   return (
     <div>
+      <Cursor />
       <section id="Homepage">
         <Navbar /> 
         <Hero />
