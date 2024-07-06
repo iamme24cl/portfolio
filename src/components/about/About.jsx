@@ -29,85 +29,20 @@ const About = () => {
       className="about"
       variants={variants}
       initial="initial"
-      // animate="animate"
-      // whileInView="animate"
       ref={ref}
       animate={"animate"}
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-            I focus on transforming ideas into interactive, user-friendly web experiences
-          <br /> with a touch of creativity, innovative design, and clean code.
+          Detail-oriented and highly motivated full stack software developer. 
+          Proficient in Python for rapid implementation and iteration, 
+          experienced in React for building interactive front-ends, and skilled in web programming. 
+          <br />
+          <br />
+          Adept at backend system design and implementation with a passion for continuous learning and skill expansion.
+          I focus on transforming ideas into interactive, user-friendly web experiences
+          with a touch of creativity, innovative design, and clean code.
         </p>
-        <hr />
-      </motion.div>
-      <motion.div className="titleContainer" variants={variants}>
-        <div className="title">
-          <img src="/people.webp" alt="" />
-          <h1>
-            <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
-          </h1>
-        </div>
-        <div className="title">
-          <h1>
-            <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
-          </h1>
-          <button>WHAT WE DO?</button>
-        </div>
-      </motion.div>
-      <motion.div className="listContainer" variants={variants}>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
-        </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
-        </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
-        </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
-        </motion.div>
       </motion.div>
     </motion.div>
   );
