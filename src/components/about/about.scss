@@ -1,22 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
 @import "../../app.scss";
 
 .about {
   background: linear-gradient(180deg, #0c0c1d, #111132);
-  height: 100vh; 
+  height: 100%;
   display: flex;
-  align-items: center; 
-  justify-content: center; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
 
   @include mobile {
     padding: 20px;
   }
 
   .textContainer {
-    width: 80%; 
-    max-width: 800px; 
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 80%;
+    max-width: 800px;
 
     @include mobile {
       width: 90%;
@@ -24,14 +29,17 @@
     }
 
     p {
+      font-family: "Dosis", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
       font-weight: 300;
-      font-size: 20px;
-      color: gray;
+      font-size: 26px;
+      color: white;
       text-align: center;
       margin: 0; 
 
       @include mobile {
-        font-size: 16px;
+        font-size: 18px;
       }
     }
   }
