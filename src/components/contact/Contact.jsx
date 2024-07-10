@@ -39,6 +39,7 @@ const Contact = () => {
       .then(
         (result) => {
           setSuccess(true)
+          formRef.current.reset(); // Clear the form
         },
         (error) => {
           setError(true);
@@ -110,8 +111,8 @@ const Contact = () => {
           <input type="email" required placeholder="Email" name="from_email"/>
           <textarea rows={8} placeholder="Message" name="message"/>
           <button>Submit</button>
-          {error && "Error"}
-          {success && "Success"}
+          {error && "Error sending message!"}
+          {success && "Successfully sent message!"}
         </motion.form>
       </div>
     </motion.div>
