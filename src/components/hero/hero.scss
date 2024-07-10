@@ -14,6 +14,7 @@
     height: 100%;
     margin: auto;
     z-index: 1; // Ensure buttons are above other elements
+    position: relative; // Ensure non-static position
 
     .textContainer {
       width: 50%;
@@ -22,7 +23,6 @@
       flex-direction: column;
       justify-content: center;
       gap: 40px;
-      position: relative; // Ensure non-static position
 
       @include mobile {
         height: 50%;
@@ -94,7 +94,7 @@
     img {
       width: 100%;
       height: 100%;
-      object-fit: contain;
+      object-fit: cover;
     }
   }
 
