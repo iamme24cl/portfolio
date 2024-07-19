@@ -26,15 +26,15 @@ Include screenshots or images of your application to give users a visual represe
 
 ### Home Page
 
-![Home Page](path/to/home-page-image.png)
+![Home Page](public/home.jpg)
 
 ### Projects Section
 
-![Projects Section](path/to/projects-section-image.png)
+![Projects Section](public/projects.jpg)
 
 ### Contact Section
 
-![Contact Section](path/to/contact-section-image.png)
+![Contact Section](public/contact.jpg)
 
 ## License
 
