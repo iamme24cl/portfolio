@@ -1,6 +1,6 @@
 # Animated Portfolio Website
 
-Welcome to the Animated Portfolio Website! This project is a modern, animated portfolio built using React, Vite, Framer Motion, and SASS. It showcases personal projects, skills, and experience with smooth and engaging animations.
+This project is a modern, animated portfolio website built using React, Vite, Framer Motion, and SASS. It showcases personal projects, skills, and experience with smooth and engaging animations.
 
 ## Table of Contents
 
