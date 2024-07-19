@@ -22,8 +22,6 @@ Check out the live demo of the portfolio website [here](https://portfolio-3fk.pa
 
 ## Website Images
 
-Include screenshots or images of your application to give users a visual representation of what to expect.
-
 ### Home Page
 
 ![Home Page](public/home.jpg)
