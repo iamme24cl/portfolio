@@ -35,22 +35,22 @@ const items = [
     url: "https://chatapp-b7p.pages.dev/",
     buttonText: "See Demo",
   },
-  {
-    id: 5,
-    title: "Invoice Manager",
-    img: "/invoices.jpg",
-    desc: "Manage all your Invoices and Clients with this easy to use Invoice Manager web application.",
-    url: "https://github.com/iamme24cl/invoices-backend",
-    buttonText: "Github",
-  },
-  {
-    id: 6,
-    title: "Dynamic Job search site",
-    img: "/job-board.png",
-    desc: "This React app fetches remote jobs from an api. You can search for jobs and apply various filters to your search.",
-    url: "https://remoteokjobs.netlify.app/",
-    buttonText: "See Demo",
-  },
+  // {
+  //   id: 5,
+  //   title: "Invoice Manager",
+  //   img: "/invoices.jpg",
+  //   desc: "Manage all your Invoices and Clients with this easy to use Invoice Manager web application.",
+  //   url: "https://github.com/iamme24cl/invoices-backend",
+  //   buttonText: "Github",
+  // },
+  // {
+  //   id: 6,
+  //   title: "Dynamic Job search site",
+  //   img: "/job-board.png",
+  //   desc: "This React app fetches remote jobs from an api. You can search for jobs and apply various filters to your search.",
+  //   url: "https://remoteokjobs.netlify.app/",
+  //   buttonText: "See Demo",
+  // },
 ];
 
 const Single = ({ item }) => {
